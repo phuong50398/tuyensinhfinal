@@ -1,0 +1,161 @@
+ var tienhientai = 0;
+ var tongtienht  = 0;
+ var modal = "";
+ var tongtien = 0;
+ var hp, sk, the, yt, tt1, tt2;
+ $(document).on('click', 'button[name="thuhocphi"]', function() {
+    tienhientai = $(this).attr('data-tienphaithu');
+    modal = "myModal-inhoso-" + $(this).attr('data-info');
+ });
+ $(document).on('click', 'button[name="in_hoadon"]', function() {
+  // tongtiendanop = $('#'+modal).find('.tongtiendanop');
+    tongtiendathu = 'tongtiendathu_' + $(this).val();
+    hp1         = $('#' + modal).find('input[name="data[hp1]"]').val();
+    hp2         = $('#' + modal).find('input[name="data[hp2]"]').val();
+    sk         = $('#' + modal).find('input[name="data[sk]"]').val();
+    the        = $('#' + modal).find('input[name="data[the]"]').val();
+    yt         = $('#' + modal).find('input[name="data[yt]"]').val();
+    tt1        = $('#' + modal).find('input[name="data[tt1]"]').val();
+    tt2        = $('#' + modal).find('input[name="data[tt2]"]').val();
+    tongtienht = parseInt($('#' + modal).find('.tongtien' + $(this).val()).val().replace(/\,/g, ''));
+    tongtien   = parseInt($('input[name="' + tongtiendathu + '"]').val()) + tongtienht;
+ });
+
+ function check_tien() {
+  if((hp1 == "" && sk == "" && the == "" && yt == "" && tt1 == "") || (hp2 == "" && sk == "" && the == "" && yt == "" && tt2 == "")) {
+    toastr.error('Bạn phải điền ít nhất 1 ô dữ liệu!');
+    return false;
+  } else {
+    if(tongtienht <= 0){
+       toastr.error('Số tiền đóng học phải > 0');
+       return false;
+    }else{
+      if(tongtien > parseInt(tienhientai)) {
+        return confirm('Số tiền bạn đang nhập lớn hơn số tiền sinh viên phải nộp!');
+      } else {
+        return true;
+      }
+    }
+  }
+ }
+ $(document).ready(function() {
+  $('.tt_sinhvien').click(function() {
+    $('#sobd').html($(this).attr('sobd'));
+    $('#hoten').html($(this).attr('hoten'));
+    $('#ngaysinh').html($(this).attr('ngaysinh'));
+    $('#gioitinh').html($(this).attr('gioitinh'));
+    $('#noisinh').html($(this).attr('noisinh'));
+    $('#diachi').html($(this).attr('diachi'));
+    $('#tongdiem_xettuyen').html($(this).attr('tongdiem_xettuyen'));
+    $('#nganhtrungtuyen').html($(this).attr('nganhtrungtuyen'));
+  });
+ });
+
+ $(document).ready(function($) {
+
+  $('input[name="hoten"]').focus();
+  $(':input:enabled:visible').focus();
+  $('button[name="thuhocphi"]').on('click', function() {
+    tennh = $('input[name="nguoithuhp_nh"]').val();
+    if(tennh == "") {
+      toastr.error('Bạn cần phải điền tên người thu tiền ngân hàng!');
+      return false;
+    }
+  });
+
+
+  $(document).on('focus', '.giatri', function() {
+    if($(this).val() == ""){
+        value      = $(this).attr('class');
+        val        = value.split(" ");
+        class_hp   = val[1];
+        let  masv  = class_hp.split("_")[1];
+        solan      = val[3];
+        
+        giatri     = $('.' + class_hp).text();
+        input_tien = $('input.form-control.'+val[1]+':disabled');
+        tiendadong = 0;
+        for (var i = 0; i < input_tien.length; i++) {
+            tiendadong += parseInt( input_tien.eq(i).val().replace(/\,/g, ''));
+        }
+        tongtienconlai = parseInt(giatri) - tiendadong;
+        if(tongtienconlai<0){
+          tongtienconlai = 0;
+        }
+        
+          $(this).val(tongtienconlai);
+        $(this).simpleMoneyFormat();
+    }
+    var masv = class_hp.split("_")[1];
+    input = $('.input' + masv);
+    tong = 0;
+    let arr = [];
+    for(var i = 0; i < input.length; i++) {
+      arr.push({
+        'giatri': parseInt(input[i].value.replace(/\,/g, ''))
+      });
+    }
+    var sum = 0;
+    for(var i = 0; i < arr.length; i++) {
+      if(!isNaN(arr[i]['giatri'])) {
+        sum += arr[i]['giatri'];
+      }
+    }
+    $('.tongtien' + masv).val(sum);
+    $('.tongtien' + masv).simpleMoneyFormat();
+  });
+
+  $(document).on('keyup', '.giatri', function() {
+      masv = class_hp.split("_")[1];
+      input = $('.input' + masv);
+      tong = 0;
+      let arr = [];
+      for(var i = 0; i < input.length; i++) {
+        arr.push({
+          'giatri': parseInt(input[i].value.replace(/\,/g, ''))
+        });
+      }
+      var sum = 0;
+      for(var i = 0; i < arr.length; i++) {
+        if(!isNaN(arr[i]['giatri'])) {
+          sum += arr[i]['giatri'];
+        }
+      }
+
+      $('.tongtien' + masv).val(sum);
+      $('.tongtien' + masv).simpleMoneyFormat();
+  });
+  // $(document).on('focus', '.giatri', function() {
+  //     value = $(this).attr('class');
+  //     val = value.split(" ");
+  //     class_hp = val[1];
+  //     solan = val[3];
+  //     giatri = $('.' + class_hp).text();
+  //     // nganh = class_hp.split("_");
+  //     // nganh = nganh[1].substr(3,2);
+  //     $(this).attr("value", giatri);
+  //     $(this).simpleMoneyFormat();
+  // });
+
+  function check() {
+    st1 = parseInt(document.getElementsByName("st1")[0].value);
+    st2 = parseInt(document.getElementsByName("st2")[0].value);
+    if(isNaN(st1) == true) {
+      document.getElementsByName("st1")[0].value = '';
+    }
+    if(isNaN(st2) == true) {
+      document.getElementsByName("st2")[0].value = '';
+    }
+  }
+  $(document).on('change', 'input[name="nguoithuhp_nh"]', function() {
+    value = $(this).val();
+    $.ajax({
+      url: window.location.pathname,
+      type: 'post',
+      data: {
+        'action': 'set_session',
+        'value': value,
+      }
+    });
+  });
+ });

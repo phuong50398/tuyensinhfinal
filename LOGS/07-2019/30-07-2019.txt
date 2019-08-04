@@ -1,0 +1,523 @@
+admin---30/07/2019 08:48:54---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:48:54', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:48:54---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:51:47---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:51:47', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:51:47---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:53:38---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:53:38', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:53:38---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:53:42---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:53:42', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:53:42---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:54:15---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:54:15', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:54:15---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:54:34---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:54:34', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:54:34---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:56:14---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:56:14', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:56:14---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:57:24---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:57:24', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:57:24---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 08:59:49---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 08:59:49', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 08:59:49---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:00:45---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:00:45', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:00:45---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:01:09---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:01:09', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:01:09---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:03:28---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:03:28', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:03:28---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:05:43---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:05:43', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:05:43---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:05:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:05:50', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:05:50---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:06:20---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:06:20', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:06:20---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:07:34---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:07:34', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:07:34---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:09:23---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:09:23', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:09:23---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:10:06---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:10:06', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:10:06---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:10:24---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:10:24', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:10:24---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:10:57---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:10:57', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:10:57---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:11:00---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:11:00', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:11:00---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:11:06---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:11:06', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:11:06---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:11:33---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:11:33', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:11:33---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:12:42---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:12:42', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:12:42---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:12:47---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:12:47', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:12:47---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:12:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:12:50', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:12:50---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:12:53---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:12:53', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:12:53---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:12:58---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:12:58', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:12:58---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:03', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:03---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:03', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:03---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:03', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:03---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:03', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:03---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:04---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:04', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:04---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:04---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:04', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:04---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:04---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:04', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:04---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:04---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:04', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:05---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:05---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:05', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:05---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:13:05---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:13:05', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:13:05---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:14:11---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:14:11', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:14:11---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:14:40---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:14:40', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:14:40---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:15:16---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:15:16', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:15:16---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:15:46---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:15:46', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:15:46---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:15:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:15:50', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:15:50---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:16:36---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:16:36', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:16:36---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:17:15---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:17:15', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:17:15---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:18:02---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:18:02', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:18:02---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:18:17---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:18:17', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:18:17---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:18:42---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:18:42', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:18:42---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:19:07---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:19:07', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:19:07---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:20:33---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:20:33', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:20:33---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:22:25---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:22:25', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:22:25---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:22:39---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001192', 'admin', '2019/07/30 09:22:39', 'Không tích hồ sơ nào!')
+
+
+admin---30/07/2019 09:22:39---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 09:24:58---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001193', 'admin', '30/07/2019 09:24:58')
+
+
+admin---30/07/2019 09:25:29---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001193', 'admin', '30/07/2019 09:25:29')
+
+
+admin---30/07/2019 12:26:25---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001193', 'admin', '30/07/2019 12:26:25')
+
+
+admin---30/07/2019 12:26:44---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '30/07/2019 12:26:44', '19A12010001')
+
+
+admin---30/07/2019 12:27:07---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`) VALUES ('6300000', 0, '150000', '200000', '656775', '170000', 0, '19A12010002', 'hp1,sk,the,yt,tt1', 'admin', '2019/07/30 12:27:07', '7476775', 'Người thu tiền', '2', '1')
+
+
+admin---30/07/2019 12:27:07---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,the,yt,tt1', `nguoithu_hocphi` = 'admin', `nguoithuhp_nh` = 'Người thu tiền', `thoigian_hocphi` = '2019/07/30 12:27:07', `trangthai` = 4, `tongtien_dathu` = 7476775
+WHERE `masv` = '19A12010002'
+
+
+admin---30/07/2019 12:27:07---UPDATE `dm_canbo` SET `so` = 109
+WHERE `macb` = 'admin'
+
+
+admin---30/07/2019 12:27:07---UPDATE `hocphi_sinhvien` SET `so` = '108'
+WHERE `masv` = '19A12010002'
+AND `hocphi` = 'hp1,sk,the,yt,tt1'
+
+
+admin---30/07/2019 12:28:21---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '30/07/2019 12:28:21', '19A12010001')
+
+
+admin---30/07/2019 12:29:29---DELETE FROM `hocphi_sinhvien`
+WHERE `masv` = '19A12010001'
+AND `id` = '26'
+
+
+admin---30/07/2019 12:29:29---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,the,yt', `tongtien_dathu` = 7306775
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:29:34---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`) VALUES ('', 0, '0', '', '0', '170000', 0, '19A12010001', 'tt1', 'admin', '2019/07/30 12:29:34', '170000', 'Người thu tiền', '2', '3')
+
+
+admin---30/07/2019 12:29:34---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,the,yt,tt1', `nguoithu_hocphi` = 'admin', `nguoithuhp_nh` = 'Người thu tiền', `thoigian_hocphi` = '2019/07/30 12:29:34', `trangthai` = 4, `tongtien_dathu` = 7476775
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:29:34---UPDATE `dm_canbo` SET `so` = 110
+WHERE `macb` = 'admin'
+
+
+admin---30/07/2019 12:29:34---UPDATE `hocphi_sinhvien` SET `so` = '109'
+WHERE `masv` = '19A12010001'
+AND `hocphi` = 'tt1'
+
+
+admin---30/07/2019 12:32:27---DELETE FROM `hocphi_sinhvien`
+WHERE `masv` = '19A12010001'
+AND `id` = '12'
+
+
+admin---30/07/2019 12:32:27---UPDATE `tbl_sinhvien` SET `hocphi` = 'the,yt,tt1', `tongtien_dathu` = 1026775
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:32:31---DELETE FROM `hocphi_sinhvien`
+WHERE `masv` = '19A12010001'
+AND `id` = '16'
+
+
+admin---30/07/2019 12:32:31---UPDATE `tbl_sinhvien` SET `hocphi` = 'tt1', `tongtien_dathu` = 170000
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:32:33---DELETE FROM `hocphi_sinhvien`
+WHERE `masv` = '19A12010001'
+AND `id` = '30'
+
+
+admin---30/07/2019 12:32:33---UPDATE `tbl_sinhvien` SET `hocphi` = NULL, `trangthai` = 3, `nguoithu_hocphi` = NULL, `nguoithuhp_nh` = NULL, `tongtien_dathu` = NULL, `thoigian_hocphi` = NULL
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:32:40---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`) VALUES ('6300000', 0, '150000', '200000', '656775', '170000', 0, '19A12010001', 'hp1,sk,the,yt,tt1', 'admin', '2019/07/30 12:32:40', '7476775', 'Người thu tiền', '2', '1')
+
+
+admin---30/07/2019 12:32:40---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,the,yt,tt1', `nguoithu_hocphi` = 'admin', `nguoithuhp_nh` = 'Người thu tiền', `thoigian_hocphi` = '2019/07/30 12:32:40', `trangthai` = 4, `tongtien_dathu` = 7476775
+WHERE `masv` = '19A12010001'
+
+
+admin---30/07/2019 12:32:40---UPDATE `dm_canbo` SET `so` = 111
+WHERE `macb` = 'admin'
+
+
+admin---30/07/2019 12:32:40---UPDATE `hocphi_sinhvien` SET `so` = '110'
+WHERE `masv` = '19A12010001'
+AND `hocphi` = 'hp1,sk,the,yt,tt1'
+
+
+admin---30/07/2019 12:33:05---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001193', 'gbnh,bshb,bsks,cntn,bstn,utkv', 'admin', '2019/07/30 12:33:05')
+
+
+admin---30/07/2019 12:33:05---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn,bstn,utkv', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/07/30 12:33:05'
+WHERE `soBD` = '19001193'
+
+
+admin---30/07/2019 12:33:18---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001192', 'hstt,gbnh,bshb,bsks,cntn,bstn,utkv,utdt,nvqs', 'admin', '2019/07/30 12:33:18')
+
+
+admin---30/07/2019 12:33:18---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn,bstn,utkv,utdt,nvqs', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/07/30 12:33:18'
+WHERE `soBD` = '19001192'
+
+
+admin---30/07/2019 12:33:37---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001193', 'admin', '30/07/2019 12:33:37')
+
+
+tragiaybao---30/07/2019 15:08:39---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/30 15:08:39', `trangthai` = 2
+WHERE `soBD` = '19001191'
+
+
+admin---30/07/2019 15:10:59---UPDATE `tbl_sinhvien` SET `masv` = '19A10010001'
+WHERE `soBD` = '19001191'
+
+
+admin---30/07/2019 15:10:59---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001191', 'hstt,gbnh', 'admin', '2019/07/30 15:10:59')
+
+
+admin---30/07/2019 15:10:59---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/07/30 15:10:59', `trangthai` = 3
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---30/07/2019 21:35:29---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 21:35:29', `trangthai` = 1
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---30/07/2019 21:44:23---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 21:44:23', `trangthai` = 1, `buudien` = 'buudien'
+WHERE `soBD` = '19001192'
+
+
+thuphieudiem---30/07/2019 21:44:31---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 21:44:31', `trangthai` = 1, `buudien` = 'buudien'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---30/07/2019 21:44:52---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 21:44:52', `trangthai` = 1, `buudien` = 'buudien'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---30/07/2019 21:45:24---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 21:45:24', `trangthai` = 1, `buudien` = 'buudien'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---30/07/2019 22:03:34---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-30 22:03:34', `trangthai` = 1
+WHERE `soBD` = '19001197'
+
+
+admin---30/07/2019 22:33:03---DELETE FROM `tbl_sinhvien_lop`
+WHERE `malop` = '1'
+
+

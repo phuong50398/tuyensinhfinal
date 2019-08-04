@@ -1,0 +1,1440 @@
+thuphieudiem---31/07/2019 10:02:43---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 10:02:42', `trangthai` = 1
+WHERE `soBD` = '19001191'
+
+
+tragiaybao---31/07/2019 10:02:59---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 10:02:59', `trangthai` = 2
+WHERE `soBD` = '19001191'
+
+
+admin---31/07/2019 10:11:46---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '31/07/2019 10:11:46', '19A12010001')
+
+
+admin---31/07/2019 10:14:57---DELETE FROM `hocphi_sinhvien`
+WHERE `masv` = '19A10010001'
+AND `id` = '1'
+
+
+admin---31/07/2019 10:14:57---UPDATE `tbl_sinhvien` SET `hocphi` = NULL, `trangthai` = 3, `nguoithu_hocphi` = NULL, `nguoithuhp_nh` = NULL, `tongtien_dathu` = NULL, `thoigian_hocphi` = NULL
+WHERE `masv` = '19A10010001'
+
+
+admin---31/07/2019 10:15:06---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`) VALUES ('6920000', 0, '150000', '200000', '704025', '170000', 0, '19A10010001', 'hp1,sk,the,yt,tt1', 'admin', '2019/07/31 10:15:06', '8144025', 'Đặng Thị Hương Lan', '2', '1')
+
+
+admin---31/07/2019 10:15:06---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,the,yt,tt1', `nguoithu_hocphi` = 'admin', `nguoithuhp_nh` = 'Đặng Thị Hương Lan', `thoigian_hocphi` = '2019/07/31 10:15:06', `trangthai` = 4, `tongtien_dathu` = 8144025
+WHERE `masv` = '19A10010001'
+
+
+admin---31/07/2019 10:15:06---UPDATE `dm_canbo` SET `so` = 113
+WHERE `macb` = 'admin'
+
+
+admin---31/07/2019 10:15:06---UPDATE `hocphi_sinhvien` SET `so` = '112'
+WHERE `masv` = '19A10010001'
+AND `hocphi` = 'hp1,sk,the,yt,tt1'
+
+
+admin---31/07/2019 10:30:14---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '31/07/2019 10:30:14', '19A12010001')
+
+
+admin---31/07/2019 10:53:23---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '31/07/2019 10:53:23', '19A10010001')
+
+
+admin---31/07/2019 10:54:37---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('admin', '31/07/2019 10:54:37', '19A10010001')
+
+
+admin---31/07/2019 10:55:09---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001191', 'hstt,gbnh,bshb,bsks,cntn,bstn,utkv,utdt', 'admin', '2019/07/31 10:55:09')
+
+
+admin---31/07/2019 10:55:09---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn,bstn,utkv,utdt', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/07/31 10:55:09'
+WHERE `soBD` = '19001191'
+
+
+admin---31/07/2019 10:55:34---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 10:55:34')
+
+
+admin---31/07/2019 10:56:17---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 10:56:17')
+
+
+admin---31/07/2019 10:56:27---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 10:56:27')
+
+
+admin---31/07/2019 11:26:00---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 11:26:00')
+
+
+thuphieudiem---31/07/2019 12:44:34---INSERT INTO `tbl_goi` (`stt`, `ban`) VALUES ('1', 'ban1')
+
+
+thuphieudiem---31/07/2019 12:44:34---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:45:24---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:45:24---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:45:43---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:45:43---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:46:59---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:46:59---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:47:03---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:47:03---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:48:32---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:48:32---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:51:58---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:51:58---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:52:26---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:52:26---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:53:31---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:53:31---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:54:13---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:54:13---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:54:31---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:54:31---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:55:02---UPDATE `tbl_goi` SET `stt` = '11'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:55:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:55:37---UPDATE `tbl_goi` SET `stt` = '12'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:55:37---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:56:02---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 12:56:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001192'
+
+
+thuphieudiem---31/07/2019 12:56:12---UPDATE `tbl_goi` SET `stt` = '13'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:56:12---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:57:44---UPDATE `tbl_goi` SET `stt` = '14'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:57:44---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:58:29---UPDATE `tbl_goi` SET `stt` = '15'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:58:29---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:59:15---UPDATE `tbl_goi` SET `stt` = '16'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:59:15---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:59:33---UPDATE `tbl_goi` SET `stt` = '17'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:59:33---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 12:59:55---UPDATE `tbl_goi` SET `stt` = '18'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 12:59:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 13:11:59---UPDATE `tbl_goi` SET `stt` = '19'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 13:11:59---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 14:00:35---UPDATE `tbl_goi` SET `stt` = '20'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 14:00:35---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 14:16:29---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:16:29', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 14:17:14---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 14:17:14---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 14:18:45---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:18:45', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 14:19:23---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:19:23', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001197'
+
+
+admin---31/07/2019 14:23:58---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:23:58')
+
+
+admin---31/07/2019 14:26:40---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:26:40')
+
+
+admin---31/07/2019 14:27:12---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:27:12')
+
+
+admin---31/07/2019 14:27:21---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:27:21')
+
+
+admin---31/07/2019 14:27:25---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:27:25')
+
+
+admin---31/07/2019 14:28:02---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:28:02')
+
+
+admin---31/07/2019 14:28:22---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:28:22')
+
+
+admin---31/07/2019 14:28:29---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:28:29')
+
+
+admin---31/07/2019 14:28:48---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:28:48')
+
+
+admin---31/07/2019 14:29:01---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:01')
+
+
+admin---31/07/2019 14:29:11---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:11')
+
+
+admin---31/07/2019 14:29:21---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:21')
+
+
+admin---31/07/2019 14:29:27---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:27')
+
+
+admin---31/07/2019 14:29:33---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:33')
+
+
+admin---31/07/2019 14:29:41---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:41')
+
+
+admin---31/07/2019 14:29:47---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:47')
+
+
+admin---31/07/2019 14:29:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:50')
+
+
+admin---31/07/2019 14:29:54---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:54')
+
+
+admin---31/07/2019 14:29:57---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:29:57')
+
+
+admin---31/07/2019 14:30:00---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:00')
+
+
+admin---31/07/2019 14:30:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:03')
+
+
+admin---31/07/2019 14:30:06---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:06')
+
+
+admin---31/07/2019 14:30:08---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:08')
+
+
+admin---31/07/2019 14:30:10---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:10')
+
+
+admin---31/07/2019 14:30:17---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:17')
+
+
+admin---31/07/2019 14:30:38---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:38')
+
+
+admin---31/07/2019 14:30:44---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:30:44')
+
+
+admin---31/07/2019 14:31:36---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:31:36')
+
+
+admin---31/07/2019 14:33:58---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:33:58')
+
+
+admin---31/07/2019 14:34:03---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:03')
+
+
+admin---31/07/2019 14:34:24---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:24')
+
+
+admin---31/07/2019 14:34:24---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:24')
+
+
+admin---31/07/2019 14:34:24---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:24')
+
+
+admin---31/07/2019 14:34:37---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:37')
+
+
+admin---31/07/2019 14:34:43---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:34:43')
+
+
+admin---31/07/2019 14:35:26---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:35:26')
+
+
+admin---31/07/2019 14:35:41---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:35:41')
+
+
+admin---31/07/2019 14:35:45---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:35:45')
+
+
+admin---31/07/2019 14:35:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:35:50')
+
+
+admin---31/07/2019 14:35:53---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:35:53')
+
+
+admin---31/07/2019 14:36:01---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:36:01')
+
+
+admin---31/07/2019 14:36:26---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:36:26')
+
+
+admin---31/07/2019 14:36:53---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:36:53')
+
+
+admin---31/07/2019 14:38:00---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:00')
+
+
+admin---31/07/2019 14:38:08---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:08')
+
+
+admin---31/07/2019 14:38:15---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:15')
+
+
+admin---31/07/2019 14:38:17---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:17')
+
+
+admin---31/07/2019 14:38:21---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:21')
+
+
+admin---31/07/2019 14:38:23---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:23')
+
+
+admin---31/07/2019 14:38:26---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:26')
+
+
+admin---31/07/2019 14:38:28---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:28')
+
+
+admin---31/07/2019 14:38:34---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:38:34')
+
+
+admin---31/07/2019 14:39:31---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:39:31')
+
+
+admin---31/07/2019 14:39:56---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:39:56')
+
+
+admin---31/07/2019 14:40:02---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:40:02')
+
+
+admin---31/07/2019 14:40:05---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:40:05')
+
+
+admin---31/07/2019 14:40:08---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:40:08')
+
+
+admin---31/07/2019 14:43:16---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:43:16')
+
+
+admin---31/07/2019 14:43:50---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:43:50')
+
+
+admin---31/07/2019 14:44:19---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:44:19')
+
+
+admin---31/07/2019 14:44:29---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:44:29')
+
+
+admin---31/07/2019 14:52:49---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:52:49')
+
+
+admin---31/07/2019 14:53:23---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001191', 'admin', '31/07/2019 14:53:23')
+
+
+thuphieudiem---31/07/2019 14:54:00---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:54:00', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 14:55:17---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:55:17', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 14:58:56---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 14:58:56', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 15:05:59---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 15:05:59---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 15:06:48---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:06:48', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 15:10:20---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:10:20---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 15:11:34---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:11:34', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001113'
+
+
+thuphieudiem---31/07/2019 15:12:04---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:12:04---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001113'
+
+
+thuphieudiem---31/07/2019 15:12:42---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:12:42', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 15:12:55---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:12:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 15:16:20---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:16:20---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 15:16:42---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:16:42---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 15:16:57---UPDATE `tbl_goi` SET `stt` = '21'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 15:16:57---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 15:19:11---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:19:11---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 15:20:03---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:20:03', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 15:20:06---UPDATE `tbl_goi` SET `stt` = '22'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 15:20:06---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 15:20:38---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:20:38', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 15:20:55---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 15:20:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 15:26:59---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:26:59', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 15:27:01---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 15:27:01---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 15:40:01---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:40:01', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 15:41:41---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 15:41:41', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 15:43:22---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 15:43:22---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 16:08:04---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:08:04---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:08:25---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 16:08:25---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001191'
+
+
+thuphieudiem---31/07/2019 16:09:18---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:09:18', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 16:09:27---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:09:27---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 16:16:26---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:16:26', `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 16:16:45---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:16:45', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:16:49---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:16:49---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:17:04---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:17:04---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:17:08---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:17:08---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:17:12---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:17:12---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:17:17---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:17:17---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:18:20---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:18:20', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 16:18:22---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:18:22---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 16:36:36---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:36:36---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 16:36:36---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:36:36', `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 16:42:31---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:42:31---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 16:42:31---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:42:31', `trangthai` = 1
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 16:46:01---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:46:01---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:01---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:01', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:02', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:02', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:02---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:02', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:10---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:46:10---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:10---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:10', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:46:50---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 16:46:50---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 16:46:50---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:46:50', `trangthai` = 1
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 16:47:16---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 16:47:16---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 16:47:16---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:47:16', `trangthai` = 1
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 16:48:04---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:48:04---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 16:48:04---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:48:04', `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 16:48:42---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:48:42---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 16:48:42---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:48:42', `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 16:49:25---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:49:25---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:49:25---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:49:25', `trangthai` = 1
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 16:51:08---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:51:08---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001111'
+
+
+thuphieudiem---31/07/2019 16:51:08---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:51:08', `trangthai` = 1
+WHERE `soBD` = '19001111'
+
+
+thuphieudiem---31/07/2019 16:51:43---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:51:43---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 16:51:43---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:51:43', `trangthai` = 1
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 16:55:15---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:55:15---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 16:55:15---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:55:15', `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 16:55:28---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 16:55:28---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 16:55:28---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:55:28', `trangthai` = 1
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 16:55:36---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:55:36---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:55:36---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:55:36', `trangthai` = 1
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 16:55:42---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 16:55:42---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 16:55:42---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:55:42', `trangthai` = 1
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 16:56:15---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 16:56:15---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 16:56:15---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 16:56:15', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 17:06:22---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:06:22---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 17:06:22---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:06:22', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 17:08:55---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:08:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001111'
+
+
+thuphieudiem---31/07/2019 17:08:55---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:08:55', `trangthai` = 1
+WHERE `soBD` = '19001111'
+
+
+thuphieudiem---31/07/2019 17:09:14---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:09:14---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 17:09:14---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:09:14', `trangthai` = 1
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 17:09:22---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 17:09:22---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001114'
+
+
+thuphieudiem---31/07/2019 17:09:22---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:09:22', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001114'
+
+
+thuphieudiem---31/07/2019 17:10:33---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:10:33---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 17:10:33---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:10:33', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 17:12:36---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:12:36---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001116'
+
+
+thuphieudiem---31/07/2019 17:12:36---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:12:36', `trangthai` = 1
+WHERE `soBD` = '19001116'
+
+
+thuphieudiem---31/07/2019 17:12:44---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:12:44---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001117'
+
+
+thuphieudiem---31/07/2019 17:12:44---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:12:44', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001117'
+
+
+thuphieudiem---31/07/2019 17:13:18---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:13:18---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001118'
+
+
+thuphieudiem---31/07/2019 17:13:18---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:13:18', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001118'
+
+
+thuphieudiem---31/07/2019 17:13:37---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:13:37---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001118'
+
+
+thuphieudiem---31/07/2019 17:13:37---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:13:37', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001118'
+
+
+thuphieudiem---31/07/2019 17:13:49---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:13:49---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 17:13:49---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:13:49', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 17:15:29---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:15:29---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 17:15:29---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:15:29', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 17:15:55---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:15:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 17:15:55---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:15:55', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 17:16:25---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 17:16:25---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001122'
+
+
+thuphieudiem---31/07/2019 17:16:25---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:16:25', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001122'
+
+
+thuphieudiem---31/07/2019 17:16:45---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:16:45---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001123'
+
+
+thuphieudiem---31/07/2019 17:16:45---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:16:45', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001123'
+
+
+thuphieudiem---31/07/2019 17:16:52---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:16:52---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001123'
+
+
+thuphieudiem---31/07/2019 17:20:50---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:20:50---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 17:20:50---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:20:50', `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---31/07/2019 17:21:01---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 17:21:01---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 17:21:01---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:21:01', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 17:21:12---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 17:21:12---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---31/07/2019 17:22:28---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:22:28---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 17:22:28---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:22:28', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 17:22:35---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:22:35---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001195'
+
+
+thuphieudiem---31/07/2019 17:24:33---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:24:33---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 17:24:33---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:24:33', `trangthai` = 1
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---31/07/2019 17:24:41---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:24:41---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 17:24:41---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:24:41', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 17:24:43---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:24:43---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001197'
+
+
+thuphieudiem---31/07/2019 17:28:17---UPDATE `tbl_goi` SET `stt` = '1'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:28:17---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 17:28:17---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:28:17', `trangthai` = 1
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---31/07/2019 17:29:01---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:29:01---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 17:29:01---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:29:01', `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---31/07/2019 17:30:26---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---31/07/2019 17:30:26---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---31/07/2019 17:30:26---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:30:26', `trangthai` = 1
+WHERE `soBD` = '19001110'
+
+
+---31/07/2019 17:32:58---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban3'
+
+
+---31/07/2019 17:32:58---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001111'
+
+
+---31/07/2019 17:32:58---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:32:58', `trangthai` = 1
+WHERE `soBD` = '19001111'
+
+
+thuphieudiem---31/07/2019 17:34:50---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:34:50---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 17:34:50---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:34:50', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 17:34:51---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:34:51---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001112'
+
+
+thuphieudiem---31/07/2019 17:42:02---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:42:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 17:42:02---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:42:02', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 17:42:04---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:42:04---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001115'
+
+
+thuphieudiem---31/07/2019 17:46:41---UPDATE `tbl_goi` SET `stt` = '11'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:46:41---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001116'
+
+
+thuphieudiem---31/07/2019 17:46:41---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:46:41', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001116'
+
+
+thuphieudiem---31/07/2019 17:46:43---UPDATE `tbl_goi` SET `stt` = '12'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:46:43---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001116'
+
+
+thuphieudiem---31/07/2019 17:46:48---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:46:48---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001117'
+
+
+thuphieudiem---31/07/2019 17:46:48---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:46:48', `trangthai` = 1
+WHERE `soBD` = '19001117'
+
+
+---31/07/2019 17:47:24---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban2'
+
+
+---31/07/2019 17:47:24---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001118'
+
+
+---31/07/2019 17:47:24---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:47:24', `trangthai` = 1
+WHERE `soBD` = '19001118'
+
+
+thuphieudiem---31/07/2019 17:47:41---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:47:41---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 17:47:41---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:47:41', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 17:47:42---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban1'
+
+
+thuphieudiem---31/07/2019 17:47:42---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001119'
+
+
+thuphieudiem---31/07/2019 17:47:47---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---31/07/2019 17:47:47---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 17:47:47---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:47:47', `trangthai` = 1
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---31/07/2019 17:47:56---UPDATE `tbl_goi` SET `stt` = '13'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:47:56---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 17:47:56---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 17:47:56', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 17:47:57---UPDATE `tbl_goi` SET `stt` = '14'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 17:47:57---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001121'
+
+
+thuphieudiem---31/07/2019 20:19:02---UPDATE `tbl_goi` SET `stt` = '15'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 20:19:02---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001124'
+
+
+thuphieudiem---31/07/2019 20:19:02---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-07-31 20:19:02', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001124'
+
+
+thuphieudiem---31/07/2019 20:19:05---UPDATE `tbl_goi` SET `stt` = '16'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---31/07/2019 20:19:05---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2'
+WHERE `soBD` = '19001124'
+
+
+tragiaybao---31/07/2019 20:40:08---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:08', `trangthai` = 2
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---31/07/2019 20:40:14---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:14', `trangthai` = 2
+WHERE `soBD` = '19001111'
+
+
+tragiaybao---31/07/2019 20:40:21---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:21', `trangthai` = 2
+WHERE `soBD` = '19001117'
+
+
+tragiaybao---31/07/2019 20:40:27---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:27', `trangthai` = 2
+WHERE `soBD` = '19001118'
+
+
+tragiaybao---31/07/2019 20:40:32---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:32', `trangthai` = 2
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---31/07/2019 20:40:38---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:38', `trangthai` = 2
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---31/07/2019 20:40:42---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:42', `trangthai` = 2
+WHERE `soBD` = '19001196'
+
+
+tragiaybao---31/07/2019 20:40:47---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:47', `trangthai` = 2
+WHERE `soBD` = '19001198'
+
+
+tragiaybao---31/07/2019 20:40:53---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/07/31 20:40:53', `trangthai` = 2
+WHERE `soBD` = '19001199'
+
+
+tragiaybao---31/07/2019 20:41:29---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---31/07/2019 20:41:34---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001111'
+
+
+tragiaybao---31/07/2019 20:41:38---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001117'
+
+
+tragiaybao---31/07/2019 20:41:42---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001118'
+
+
+tragiaybao---31/07/2019 20:41:50---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---31/07/2019 20:42:01---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---31/07/2019 20:42:07---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001196'
+
+
+tragiaybao---31/07/2019 20:42:11---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001198'
+
+
+tragiaybao---31/07/2019 20:42:18---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
